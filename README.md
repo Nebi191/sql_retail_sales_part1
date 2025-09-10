@@ -1,26 +1,25 @@
-# Retail Sales Analysis SQL Project
+# Perakende Satış Analizi SQL Projesi
 
-## Project Overview
+## Projeye Genel Bakış
 
-**Project Title**: Retail Sales Analysis  
-**Level**: Beginner  
-**Database**: `p1_retail_db`
+**Proje Başlığı**: Perakende Satış Analizi
+**Seviye**: Başlangıç
+**Veritabanı**: `p1_retail_db`
 
-This project is designed to demonstrate SQL skills and techniques typically used by data analysts to explore, clean, and analyze retail sales data. The project involves setting up a retail sales database, performing exploratory data analysis (EDA), and answering specific business questions through SQL queries. This project is ideal for those who are starting their journey in data analysis and want to build a solid foundation in SQL.
+Bu proje, veri analistleri tarafından perakende satış verilerini incelemek, temizlemek ve analiz etmek için kullanılan SQL becerilerini ve tekniklerini göstermek üzere tasarlanmıştır. Proje, bir perakende satış veritabanı oluşturmayı, keşifsel veri analizi (EDA) gerçekleştirmeyi ve SQL sorguları aracılığıyla belirli iş sorularını yanıtlamayı içerir. Bu proje, veri analizi yolculuğuna yeni başlayan ve SQL'de sağlam bir temel oluşturmak isteyenler için idealdir.
 
-## Objectives
+## Hedefler
 
-1. **Set up a retail sales database**: Create and populate a retail sales database with the provided sales data.
-2. **Data Cleaning**: Identify and remove any records with missing or null values.
-3. **Exploratory Data Analysis (EDA)**: Perform basic exploratory data analysis to understand the dataset.
-4. **Business Analysis**: Use SQL to answer specific business questions and derive insights from the sales data.
+1. **Bir perakende satış veritabanı kurun**: Sağlanan satış verileriyle bir perakende satış veritabanı oluşturun ve doldurun.
+2. **Veri Temizleme**: Eksik veya boş değer içeren kayıtları belirleyin ve kaldırın.
+3. **Keşifsel Veri Analizi (EDA)**: Veri kümesini anlamak için temel keşifsel veri analizi gerçekleştirin. 4. **İş Analizi**: Belirli iş sorularını yanıtlamak ve satış verilerinden içgörüler elde etmek için SQL kullanın.
 
-## Project Structure
+## Proje Yapısı
 
-### 1. Database Setup
+### 1. Veritabanı Kurulumu
 
-- **Database Creation**: The project starts by creating a database named `p1_retail_db`.
-- **Table Creation**: A table named `retail_sales` is created to store the sales data. The table structure includes columns for transaction ID, sale date, sale time, customer ID, gender, age, product category, quantity sold, price per unit, cost of goods sold (COGS), and total sale amount.
+- **Veritabanı Oluşturma**: Proje, `p1_retail_db` adlı bir veritabanı oluşturarak başlar.
+- **Tablo Oluşturma**: Satış verilerini depolamak için `retail_sales` adlı bir tablo oluşturulur. Tablo yapısı, işlem kimliği, satış tarihi, satış saati, müşteri kimliği, cinsiyet, yaş, ürün kategorisi, satılan miktar, birim fiyat, satılan malın maliyeti (COGS) ve toplam satış tutarı sütunlarını içerir.
 
 ```sql
 CREATE DATABASE p1_retail_db;
@@ -219,6 +218,7 @@ This project serves as a comprehensive introduction to SQL for data analysts, co
 This project is part of my portfolio, showcasing the SQL skills essential for data analyst roles. If you have any questions, feedback, or would like to collaborate, feel free to get in touch!
 
 ### Stay Updated and Join the Community
+
 
 
 
