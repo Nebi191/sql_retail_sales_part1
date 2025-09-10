@@ -40,13 +40,12 @@ CREATE TABLE retail_sales
 );
 ```
 
-### 2. Data Exploration & Cleaning
+### 2. Veri Araştırması ve Temizleme
 
-- **Record Count**: Determine the total number of records in the dataset.
-- **Customer Count**: Find out how many unique customers are in the dataset.
-- **Category Count**: Identify all unique product categories in the dataset.
-- **Null Value Check**: Check for any null values in the dataset and delete records with missing data.
-
+- **Kayıt Sayısı**: Veri kümesindeki toplam kayıt sayısını belirleyin.
+- **Müşteri Sayısı**: Veri kümesinde kaç benzersiz müşteri olduğunu öğrenin.
+- **Kategori Sayısı**: Veri kümesindeki tüm benzersiz ürün kategorilerini belirleyin.
+- **Boş Değer Kontrolü**: Veri kümesinde boş değer olup olmadığını kontrol edin ve eksik veri içeren kayıtları silin.
 ```sql
 SELECT COUNT(*) FROM retail_sales;
 SELECT COUNT(DISTINCT customer_id) FROM retail_sales;
@@ -65,9 +64,9 @@ WHERE
     quantity IS NULL OR price_per_unit IS NULL OR cogs IS NULL;
 ```
 
-### 3. Data Analysis & Findings
 
-The following SQL queries were developed to answer specific business questions:
+
+Aşağıdaki SQL sorguları belirli iş sorularını yanıtlamak için geliştirilmiştir:
 
 1. **'2022-11-05' tarihinde yapılan satışların tüm sütunlarını almak için bir SQL sorgusu yazın**:
 ```sql
@@ -218,6 +217,7 @@ This project serves as a comprehensive introduction to SQL for data analysts, co
 This project is part of my portfolio, showcasing the SQL skills essential for data analyst roles. If you have any questions, feedback, or would like to collaborate, feel free to get in touch!
 
 ### Stay Updated and Join the Community
+
 
 
 
